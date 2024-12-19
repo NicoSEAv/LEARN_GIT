@@ -1,0 +1,7 @@
+function divideByTwo(number) {
+    return number / 2;
+}
+
+// Example usage:
+let result = divideByTwo(10);
+console.log(result); // Output: 5
