@@ -1,0 +1,26 @@
+COMMANDS
+
+git add filname.txt : to add the file to the staging area.
+git add . Add to staging area all the uncommitted files, better to do a file by a file
+
+git commit -m "message for the commit" : it allows to move the files from the staging area to the Repository area.
+
+git push : allows the user to push the files directly to GitHub
+
+git pull : allows to retrive from the remote repository the files and merges them in the current local branch
+
+git remote -v : If you run this command on a cloned repo, you will view the URL of the remote branch, like the GitHub URL.
+If there is no connection to a remote branch, then you won’t see a URL.
+
+git remote add name https://url.git
+By convention, we call this remote branch the origin branch. --> git remote add origin https://url.git
+
+git remote rename <old> <new>
+git remote remove <name>
+
+git push -u origin main/master
+
+Example:
+git remote add origin https://github.com/NicoSEAv/LEARN_GIT.git
+git branch -M main
+git push -u origin main
