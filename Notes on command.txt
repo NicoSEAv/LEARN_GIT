@@ -37,3 +37,8 @@ git fetch origin <branch>
 
 git switch : allows to swtich among branches.
 git checkout origin/master
+
+Branches:
+Branches allow us to organize a repository and split it apart so multiple people can work on it or so a solo developer can work on different aspects of a project on a separated work.
+
+HEAD will help us understand what we are currently “viewing” or where we are “located” in regards to branches and commits.
