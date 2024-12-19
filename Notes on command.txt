@@ -24,3 +24,15 @@ Example:
 git remote add origin https://github.com/NicoSEAv/LEARN_GIT.git
 git branch -M main
 git push -u origin main
+
+git pull : Using git pull makes sense when you want to directly grab changes from the remote branch and directly merge them into your current branch.
+This means you will literally update the files in your working directory to match up and merge with the remote branch.
+
+git fetch : It does not change the files inside your local directory files but you can see the changes in the log. So, git fetch will download changes from the GitHub remote repository, however you will not see those changes be part of the files you have in the working directory.
+Fetch allows you to grab additional work done on the remote master branch, without needing to merge it in your working directory files
+
+But you can specify to fetch specific branches using:
+git fetch <remote> <branch>
+git fetch origin <branch>
+
+
