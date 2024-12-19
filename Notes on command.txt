@@ -35,4 +35,5 @@ But you can specify to fetch specific branches using:
 git fetch <remote> <branch>
 git fetch origin <branch>
 
-
+git switch : allows to swtich among branches.
+git checkout origin/master
